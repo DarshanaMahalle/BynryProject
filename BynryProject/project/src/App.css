@@ -1,0 +1,19 @@
+/* Base styles for mobile devices */
+.profile-card {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Media query for tablets */
+@media (min-width: 768px) {
+  .profile-card {
+    width: 50%;
+  }
+}
+
+/* Media query for desktop screens */
+@media (min-width: 1024px) {
+  .profile-card {
+    width: 33.33%;
+  }
+}
